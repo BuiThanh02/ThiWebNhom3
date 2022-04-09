@@ -4,7 +4,7 @@ let cart = JSON.parse(localStorage.getItem('cart')) || [];
 if (wish.length < 1){
     document.getElementById("noWishlist").innerHTML = "<div style='border: 2px solid black; height:104px'>" +
         "                    <p>There are no product in wishlist yet. Let do some shopping.</p>" +
-        "                    <a href='Home.html'><button>Shop</button></a>" +
+        "                    <a href='shop.html'><button>Shop</button></a>" +
         "                </div>"
 } else {
     document.getElementById("wishList").innerHTML = "<table style=\"margin-top: 50px\">" +

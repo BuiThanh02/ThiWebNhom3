@@ -19,7 +19,7 @@ document.getElementById('product').innerHTML = "<p style=\"font-size: 20px; font
     "                </div>\n" +
     "                <p style=\"font-weight: lighter; letter-spacing: 1px; margin-top: 40px\">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>\n" +
     "                <div class=\"checkOut\" style=\"margin-top: 30px\">\n" +
-    "                    <a href='Home.html'>\n" +
+    "                    <a href='index.html'>\n" +
     "                        <button onclick='placeOrder()'>PLACE ORDER</button>\n" +
     "                    </a>\n" +
     "                </div>"
