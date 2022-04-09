@@ -31,15 +31,15 @@
 }
 .bg-image1{
     background-size: cover;
-    background: url("/images/contact-us-title-img.jpg") no-repeat fixed center;
+    background: url("images/contact-us-title-img.jpg") no-repeat fixed center;
 }
 .bg-image2{
     background-size: cover;
-    background: url("/images/about-title-img-2.jpg") no-repeat fixed center;
+    background: url("images/about-title-img-2.jpg") no-repeat fixed center;
 }
 .bg-image3{
     background-size: cover;
-    background: url("/images/h3-parallax-1.jpg") no-repeat fixed center;
+    background: url("images/h3-parallax-1.jpg") no-repeat fixed center;
 }
 ::-webkit-scrollbar{
     display: none;
