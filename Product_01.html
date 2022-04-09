@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ILLUSION</title>
+
+    <link rel="stylesheet" href="/css/Product.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body  style="width: 100%; margin: auto">
+    <div class="header">
+        <div class="logo_header">
+            <a class="st_logo_web_header" href="Home.html">Fashion</a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a id="gach_chan" href="Home.html">HOME</a></li>
+                <li>
+                    <a href="#">PAGES</a>
+                    <div class="dropdown__menu_pagse">
+                        <ul>
+                            <li><a href="pagse.html">AboutUs</a></li>
+                            <li><a href="ContactUs.html">ContactUs</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="view.html">PORTFOLIO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </div>
+        <div class="incon">
+            <section class="s">
+                <a href="login.html" class="user"><img src="/images/header_footer%20DROP%20MENU/user.png"></a>
+                <a href="#" class="search"><img src="/images/header_footer%20DROP%20MENU/search.png"></a>
+                <a href="Wishlist.html" class="search"><img src="/images/shop/Page_1/heart.png"></a>
+                <a id="hienboder" href="Cart.html" class="shopping_bag"><img src="/images/header_footer%20DROP%20MENU/shopping-bag.png"></a>
+            </section>
+        </div>
+    </div>
+
+    <div class="width">
+        <!-- Products -->
+        <div class="banner">
+            <div style="background-color: black; height: 25px">
+            </div>
+            <div style="margin-left: 100px">
+                <P><a href="shop.html" style="text-decoration: none; color: white">Shop</a> / Product / Illusion</P>
+            </div>
+        </div>
+
+        <div style="width: 1200px; margin-left: auto; margin-right: auto;">
+            <div id="link"></div>
+            <div class="main">
+
+                <div class="img">
+                    <div class="slide_img">
+                        <img class="sslide_img" src="/images/h1-product-2-gallery-1.jpg" width="100" height="110">
+                        <img class="sslide_img" src="/images/h1-product-2-gallery-2.jpg" width="100" height="110">
+                        <img class="sslide_img" src="/images/h1-product-2-gallery-3.jpg" width="100" height="110">
+                        <img class="sslide_img" src="/images/h1-product-2-gallery-4.jpg" width="100" height="110">
+                        <img class="sslide_img" src="/images/h1-product-2-gallery-5.jpg" width="100" height="110">
+                    </div>
+                    <div class="zoom_img">
+                        <img id="proImg" class="main_img" src="/images/download.jpg" width="550" height="592">
+                        <img class="zoomed_img" src="/images/download.jpg">
+                    </div>
+                </div>
+                <div class="content">
+                    <div >
+                        <p id="proName" style="font-size: 65px; font-weight: bold; letter-spacing: 10px; font-family: Roboto Condensed,sans-serif;">ILLUSION</p>
+                        <p id="proPrice" style="font-size: 23px; font-family: Barlow,sans-serif; letter-spacing: 7px; margin-top: -20px">220.00</p>
+                        <p style="font-size: 16px; letter-spacing: 2px; line-height: 30px">Alienum pha edrum torquatos nec eu, vis detra xit per iculis ex, nihil ex petendis in mei. Mei an per icula euripidis, hinc partem ei est eos ei nis.</p>
+                    </div>
+                    <div style="padding-top: 20px">
+                        <div class="quantity">
+                            <input id="qty" type="number" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" />
+                        </div>
+                        <div class="cart">
+                            <button type="button" onclick="addToCart()">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div style="width: 120px; margin-top: 20px">
+                    <span class="card-button" onclick="addToWishlist()">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                        <p style="font-size: 15px; float: right; margin-top: 0">add to wishlist</p>
+                    </div>
+                    <div style="max-width: 250px; max-height: 100px; letter-spacing: 2px; margin-top: 50px">
+                        <div style=" float: left; font-size: 17px; font-weight: bold">
+                            <p>SKU:</p>
+                            <p>CATEGORY:</p>
+                            <p>TAG:</p>
+                        </div>
+                        <div style="float: right; font-size: 17px">
+                            <p>014</p>
+                            <p>Accessories</p>
+                            <p>Clothes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Comments -->
+            <div class="bcomment">
+                <p style="font-size: 30px">REVIEWS</p>
+                <div id="noReview">
+                    <p>There are no reviews yet.</p>
+                    <p style="font-size: 20px">BE THE FIRST TO REVIEW</p>
+                </div>
+                <p>Your email address will not be published. Required fields are marked *</p>
+                <div id="comments"></div>
+                <p  style="font-size: 20px">Your rating *</p>
+                <div class="comp-rate" >
+                    <input type="radio" id="rate10" class="rate" name="rate" value="0,5" onclick="rated1()">
+                    <input type="radio" id="rate9" class="rate" name="rate" value="1" onclick="rated2()">
+                    <input type="radio" id="rate8" class="rate" name="rate" value="1,5" onclick="rated3()">
+                    <input type="radio" id="rate7" class="rate" name="rate" value="2" onclick="rated4()">
+                    <input type="radio" id="rate6" class="rate" name="rate" value="2,5" onclick="rated5()">
+                    <input type="radio" id="rate5" class="rate" name="rate" value="3" onclick="rated6()">
+                    <input type="radio" id="rate4" class="rate" name="rate" value="3,5" onclick="rated7()">
+                    <input type="radio" id="rate3" class="rate" name="rate" value="4" onclick="rated8()">
+                    <input type="radio" id="rate2" class="rate" name="rate" value="4,5" onclick="rated9()">
+                    <input type="radio" id="rate1" class="rate" name="rate" value="5" onclick="rated10()">
+                </div>
+                <div class="scomment">
+                    <textarea class="comment" id="userComment" placeholder="Your reviews *" maxLength="300"></textarea>
+                    <input type="text" placeholder="Your name *" id="userName" maxlength="30" style="outline: none">
+                    <input type="email" placeholder="Your email *" id="userEmail" maxlength="30" style="outline: none">
+                </div>
+                <input type="button" class="comment sub" value="Submit" onclick="userComment()" id="button" />
+            </div>
+            <!-- Related Products -->
+            <div>
+                <div class="stitle">
+                    <h3 style="font-weight: bold">RELATED PRODUCTS</h3>
+                </div>
+                <div class="contents">
+                    <div class="slider">
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(1)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(1)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(2)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(2)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(3)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(3)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(4)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(4)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(5)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(5)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(6)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(6)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(7)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(7)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(8)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(8)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" style="margin-right: 25px">
+                            <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(9)">
+                                <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230">
+                            <div class="proCon">
+                                <p class="proName">ILLUSION</p>
+                                <p  class="proPrice">100.00</p>
+                                <div class="carts">
+                                    <button type="submit" onclick="addToCarts(9)">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="logo_header">
+            <a class="st_logo_web" href="Home.html">Fashion</a>
+            <div class="chu_footer">More than a fashion statement, more than a store Fashion</div>
+            <div class="footer_img"><img src="/images/header_footer%20DROP%20MENU/footer-img.png"></div>
+        </div>
+        <div class="shopping">
+            <div class="c_shopping">SHOPPING</div>
+            <div class="nd_shopping">
+                <a href="#">Gift Card</a>
+                <a href="Wishlist.html">Wishlist</a>
+                <a href="#">Checkout</a>
+                <a href="#">Delivery</a>
+            </div>
+        </div>
+        <div class="shopping">
+            <div class="c_shopping">COMPANY</div>
+            <div class="nd_company">
+                <a href="pagse.html">About Us</a>
+                <a href="#">Pricing Plans</a>
+                <a href="ContactUs.html">Contact Us</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+        <div class="nd_sub">
+            SUBSCRIBE FOR NEWSLETTER
+            <div class="input">
+                <input class="st_input_FOOTER" type="email" id="email" placeholder="Email address" required>                         
+                <a href="Home.html"><img class="plane" src="/images/header_footer%20DROP%20MENU/plane.png"></a>
+            </div>
+        </div>
+    </div>
+<script src="/js/Product.js"></script>
+</body>
+</html>

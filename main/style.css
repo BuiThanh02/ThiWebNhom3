@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;700&family=Lato:ital,wght@1,700&family=Open+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    user-select: none;
+}
+.header{
+    position: relative;
+}
+.anh1{
+    position:absolute;
+    margin-left: 50%;
+    margin-top: -450px;
+    transition: .6s all ease-in-out;
+}
+.anh1:hover{
+    transform: scale(1.07);
+}
+.nd_running_text{
+    margin-top: 250px;
+}
+.vanban{
+    position: relative;
+    white-space: nowrap;
+    display:block;
+    overflow: hidden;
+    width:auto;
+    height: 150px;
+}
+.marquee{
+    position: absolute;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 100%;
+    height: 100%;
+}
+.marquee span{
+    display: inline-block;
+    padding-left: 100%;
+    font-size: 130px;
+    font-style: oblique;
+    letter-spacing: .27em;
+    text-align: center;
+    -webkit-text-stroke: 3px black;
+    white-space: nowrap;
+    line-height: 150px;
+    color: black;
+    animation: marquee 60s linear infinite;
+    width: auto;
+    font-style: oblique;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px;
+}
+.marquee2 span{
+    animation-delay: 30s;
+}
+@keyframes marquee{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-100%, 0);
+    }
+}
+
+.marquee_1{
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 100%;
+    height: 100%;
+}
+.marquee_1 span{
+    display: inline-block;
+    padding-left: 100%;
+    font-style: oblique;
+    letter-spacing: .27em;
+    text-align: center;
+    -webkit-text-stroke: 3px black;
+    white-space: nowrap;
+    line-height: 150px;
+    color: black;
+    animation: marquee_1 30s linear infinite;
+    width: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.marquee2_1 span{
+    animation-delay: 15s;
+}
+@keyframes marquee_1{
+    100%{
+        transform: translate(0,0);
+    }
+    0%{
+        transform: translate(-100%,0);
+    }
+}
+
+
+.logo{
+    margin: 100px ;
+    display: flex;
+    position: relative;
+    margin-top: 270px;
+    text-align: center;
+    align-items: center;
+}
+.logo_header{
+    margin-left: 100px;
+    align-items: center;
+}
+.st_logo_web_header{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Hurricane', cursive;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+.chu{
+    font-size: 20px;
+    margin-left: 30%;
+    letter-spacing: 2px;
+}
+
+
+a{
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 50px;
+    padding: 10px 50px;
+    background-color:rgb(255, 255, 255);
+    transition: 0.5s;
+    color: black;
+    border: 1px solid black;
+}
+a:hover{
+    cursor: pointer;
+}
+a span{
+    display: block;
+    position: absolute;
+    background: black;
+}
+
+a span:nth-child(1){
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition:  transform 0.3s;
+}
+a:hover span:nth-child(1){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition:  transform 0.3s;
+}
+
+a span:nth-child(2){
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition:  transform 0.3s;
+}
+a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition:  transform 0.3s;
+}
+
+a span:nth-child(3){
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition:  transform 0.3s;
+    transition-delay: 0.3s;
+}
+a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition:  transform 0.3s;
+    transition-delay: 0.3s;
+}
+
+a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition:  transform 0.3s;
+    transition-delay: 0.3s;
+}
+a:hover span:nth-child(4){
+    transform: scaleX(1);
+    transform-origin: left;
+    transition:  transform 0.3s;
+    transition-delay: 0.3s;
+}
+

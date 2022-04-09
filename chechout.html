@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="/css/checkout.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body  style="width: 100%; margin: auto">
+    <div class="header">
+        <div class="logo_header">
+            <a class="st_logo_web_header" href="Home.html">Fashion</a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a id="gach_chan" href="Home.html">HOME</a></li>
+                <li>
+                    <a href="#">PAGES</a>
+                    <div class="dropdown__menu_pagse">
+                        <ul>
+                            <li><a href="pagse.html">AboutUs</a></li>
+                            <li><a href="ContactUs.html">ContactUs</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="view.html">PORTFOLIO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </div>
+        <div class="incon">
+            <section class="s">
+                <a href="login.html" class="user"><img src="/images/header_footer%20DROP%20MENU/user.png"></a>
+                <a href="#" class="search"><img src="/images/header_footer%20DROP%20MENU/search.png"></a>
+                <a href="Wishlist.html" class="search"><img src="/images/shop/Page_1/heart.png"></a>
+                <a href="Cart.html" class="shopping_bag"><img src="/images/header_footer%20DROP%20MENU/shopping-bag.png"></a>
+            </section>
+        </div>
+    </div>
+
+
+    <div style="background-color: white; font-family: Barlow,sans-serif;">
+        <div class="banner">
+            <div style="background-color: black; height: 50px">
+            </div>
+            <div style="margin-left: 100px">
+                <P><a href="Home.html" style="text-decoration: none; color: white">Home</a> / <a href="Cart.html" style="text-decoration: none; color: white">Cart</a> / Checkout</P>
+            </div>
+        </div>
+        <div style="width: 1300px; margin-left: auto; margin-right: auto; margin-top: 100px">
+            <div style="height: 1300px">
+                <div style="width: 650px; float: left">
+                    <p style="font-size: 30px; font-weight: bold; letter-spacing: 5px">BILLING DETAILS</p>
+                    <form>
+                        <label class="label">First name *</label>
+                        <input id="firstName" type="text" class="input">
+                    </form>
+                    <form>
+                        <label class="label">Last name *</label>
+                        <input id="lastName" type="text" class="input">
+                    </form>
+                    <form>
+                        <label class="label">Company name ( optional )</label>
+                        <input class="input" type="text">
+                    </form>
+                    <form>
+                        <label class="label">Country / Region *</label>
+                        <input id="country" type="text" class="input">
+                    </form>
+                    <form>
+                        <label class="label">Street address *</label>
+                        <input id="street" type="text" class="input">
+                    </form>
+                    <form>
+                        <label class="label">Town / City *</label>
+                        <input id="city" type="text" class="input">
+                    </form>
+                    <form>
+                        <label class="label">Postcode *</label>
+                        <input id="postcode" type="text" class="input">
+                    </form>
+                    <form>
+                        <label class="label">Phone *</label>
+                        <input id="phone" type="text" class="input">
+                    </form>
+                    <form>
+                        <label class="label">Email address *</label>
+                        <input id="emails" type="email" class="input">
+                    </form>
+                </div>
+                <div style="width: 650px; float: right">
+                    <p style="font-size: 20px; font-weight: bold; letter-spacing: 5px">ADDITIONAL INFORMATION</p>
+                    <form style="margin-top: 20px">
+                        <label style="width: 650px; font-weight: bold" for="note"> Order notes ( optional )</label>
+                        <textarea style="width: 650px; border: 2px solid black; height: 100px" placeholder="Notes about your order, e.g. special note for delivery" id="note"></textarea>
+                    </form>
+                </div>
+            </div>
+            <div id="product">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="logo_header">
+            <a class="st_logo_web" href="Home.html">Fashion</a>
+            <div class="chu_footer">More than a fashion statement, more than a store Fashion</div>
+            <div class="footer_img"><img src="/images/header_footer%20DROP%20MENU/footer-img.png"></div>
+        </div>
+        <div class="shopping">
+            <div class="c_shopping">SHOPPING</div>
+            <div class="nd_shopping">
+                <a href="#">Gift Card</a>
+                <a href="Wishlist.html">Wishlist</a>
+                <a href="#">Checkout</a>
+                <a href="#">Delivery</a>
+            </div>
+        </div>
+        <div class="shopping">
+            <div class="c_shopping">COMPANY</div>
+            <div class="nd_company">
+                <a href="pagse.html">About Us</a>
+                <a href="#">Pricing Plans</a>
+                <a href="ContactUs.html">Contact Us</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+        <div class="nd_sub">
+            SUBSCRIBE FOR NEWSLETTER
+            <div class="input">
+                <input class="st_input_FOOTER" type="email" id="email" placeholder="Email address" required>                         
+                <a href="Home.html"><img class="plane" src="/images/header_footer%20DROP%20MENU/plane.png"></a>
+            </div>
+        </div>
+    </div>
+<script src="/js/checkout.js"></script>
+</body>
+</html>

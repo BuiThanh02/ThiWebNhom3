@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    list-style: none;
+}
+#hienboder{
+    border-bottom: 1px solid black;
+}
+.header{
+    width: 100% auto;
+    height: 120px;
+    padding: 35px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_header{
+    margin-left: 20px;
+}
+.st_logo_web_header{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Hurricane', cursive;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.s img{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    padding: 1px;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.user:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.search:hover{
+    position: relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.shopping_bag:hover{
+    position: relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.menu:hover{
+    position: relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar ul li{
+    position: relative;
+    padding-top: 48px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 48px;
+}
+.navbar ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.navbar ul li a:after{
+    content: '';
+    display:block;
+    height: 2px;
+    width: 0%;
+    background: rgb(0, 0, 0);
+    transition: width .3s ease-in-out;
+}
+.navbar ul li a:hover:after{
+    width: 100%;
+}
+.dropdown__menu_pagse{
+    display: none;
+}
+.navbar ul li:hover .dropdown__menu_pagse{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:#ffffff;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+.dropdown__menu_pagse ul li a{
+    font-size: 16px;
+    font-weight: 320;
+    letter-spacing: 1px;
+}
+.dropdown__menu_pagse ul li a:after{
+    content: '';
+    display:block;
+    height: 0px;
+    width: 0%;
+    background: rgb(255, 255, 255);
+    transition: width .3s ease-in-out;
+}
+.dropdown__menu_pagse ul li a:hover{
+    color:#8c8274;
+}
+.dropdown__menu_pagse ul li a:hover::after{
+    width: 100%;
+}
+.dropdown__menu_pagse ul{
+    display:block;
+    padding-top: 25px;
+    width: 200px;
+}
+.dropdown__menu_pagse ul li{
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+
+
+.link_home{
+    width: auto;
+    height: 130px;
+    padding: 55px;
+    background-color: #000000;
+    color: #e8e6e3;
+}
+.st_link_home{
+    margin-left: 210px;
+}
+.link_home1{
+    text-decoration: none;
+    color: #e8e6e3;
+}
+.link_home1:hover{
+    border-bottom: 1px solid #e8e6e3;
+}
+
+
+
+.nd{
+    padding: 150px;
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom: 100px;
+}
+.nd_login{
+    position:relative;
+    top: -90px;
+}
+.anh_login{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 10px;
+    left: 500px;
+}
+.nd_login h1{
+    padding: 0 0 10px;
+    border-bottom: 3px solid black;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 7px;
+    width: 180px;
+}
+.nd_login form{
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #8c8274;
+    margin: 30px 0;
+}
+.txt_field input{
+    width: 350px;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 19px;
+    border: none;
+    background: none;
+    outline: none;
+}
+#hienboder{
+    border-bottom: 1px solid black;
+}
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 20px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left:0;
+    width: 0%;
+    height: 2px;
+    background: #000000;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+    color: #000000;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+    width: 100%;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #8c8274;
+    cursor: pointer;
+    font-size: 17px;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #000000;
+    background-color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+}
+input[type="submit"]:hover{
+    border-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
+    transition: .7s;
+}
+.signup_link{
+    margin: 30px 0;
+    color: #8c8274;
+    font-size: 17px;
+}
+.signup_link a{
+    color: #000000;
+    text-decoration: none;
+}
+.signup_link a:hover{
+    text-decoration: underline;
+}
+
+
+.st_ndaccount{
+    position: absolute;
+    left: 1010px;
+    top: 60px;
+}
+.nd_account{
+    width: 450px;
+}
+.nd_account h1{
+    padding: 0 0 10px;
+    border-bottom: 3px solid black;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 7px;
+    width: 280px;
+}
+.anh_rigister{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 100px;
+    left: 100px;
+}
+.nd_account form{
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.nd_reset{
+    left: 100px;
+    top: 90px;
+    position: absolute;
+    width: 450px;
+    right: 1000px;
+    display:flex;
+    justify-content: space-between;
+}
+.nd_reset h1{
+    padding: 0 0 10px;
+    border-bottom: 3px solid black;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 7px;
+    width: 347px;
+}
+.anh_resetpass{
+    width: 800px;
+    height: 400px;
+    margin-right: 130px;
+}
+.nd_reset form{
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+.resetpass{
+    margin-top: 40px;
+    font-size: 17px;
+}
+.form_message{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 17px;
+}
+.form_message--error{
+    color:red;
+}
+.form_message--success{
+    color: green;
+}
+.hidden{
+    display: none;
+}
+.form__input-error-message{
+    margin-top: 0.1rem;
+    color: red;
+    font-size: 0.85rem;
+}
+.form__input--error{
+    color: red;
+    border-color: red;
+}
+
+
+
+.st_register{
+    margin-left: 1100px;
+}
+
+#input_error{
+    margin-top: -0.7rem;
+    color: red;
+    font-size: 0.9rem;
+}
+#message_cf_password{
+    margin-top: -0.9rem;
+    margin-bottom: 0.9rem;
+    color: red;
+    font-size: 0.9rem;
+}
+
+
+/* footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
+.footer{
+    margin-top: 350px;
+    height: 140px;
+    background: #000000;
+    padding: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.st_logo_web{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Hurricane', cursive;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.chu_footer{
+    color: white;
+    margin-top: 15px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+.shopping{
+    color: #e8e6e3;
+}
+.c_shopping{
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.nd_shopping{
+    margin-top: 35px;
+    width: 80px ;
+}
+.nd_shopping a{
+    text-decoration: none;
+    color:#e8e6e3;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.nd_shopping a:hover{
+    color: #8c8274;
+}
+.nd_company{
+    margin-top: 35px;
+    width: 120px ;
+}
+.nd_company a{
+    text-decoration: none;
+    color:#e8e6e3;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.nd_company a:hover{
+    color: #8c8274;
+}
+.nd_sub{
+    margin-top: 0px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 17px;
+    color:#e8e6e3;
+}
+.input{
+    margin-top: 35px;
+}
+.st_input_FOOTER{
+    border: 0;
+    width: 270px;
+    margin-top: 0px;
+    padding: 25px;
+    outline: none;
+    background: #000000;
+    border-bottom: 2px solid #8c8274;
+    font-size: 17px;
+    color: #e8e6e3;
+}
+::-webkit-input-placeholder{
+    color: #e8e6e3;
+}
+.plane{
+    height: 15px;
+    width: 15px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(29deg) brightness(108%) contrast(101%);
+}
+
+
+
+
+
+
+
+
+
+
+
+

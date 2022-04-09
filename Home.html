@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="css/Home.css">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<video poster="images/fashion.jpg" playsinline autoplay muted loop>
+    <source src="images/fashion.webm" type="video/webm">
+</video>
+<div class="header">
+    <div class="logo_header">
+        <a class="st_logo_web_header" href="Home.html">Fashion</a>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a id="gach_chan" href="Home.html">HOME</a></li>
+            <li>
+                <a href="#">PAGES</a>
+                <div class="dropdown__menu_pagse">
+                    <ul>
+                        <li><a href="pagse.html">AboutUs</a></li>
+                        <li><a href="ContactUs.html">ContactUs</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="view.html">PORTFOLIO</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+        </ul>
+    </div>
+    <div class="incon">
+        <section class="s">
+            <a href="login.html" class="user"><img src="/images/header_footer%20DROP%20MENU/user.png"></a>
+            <a href="#" class="search"><img src="/images/header_footer%20DROP%20MENU/search.png"></a>
+            <a href="Wishlist.html" class="search"><img src="/images/shop/Page_1/heart.png"></a>
+            <a href="Cart.html" class="shopping_bag"><img src="/images/header_footer%20DROP%20MENU/shopping-bag.png"></a>
+        </section>
+    </div>
+</div>
+<div style="text-align: center; margin-top: 600px">
+    <p style="font-size: 50px; letter-spacing: 5px; font-weight: lighter;">LET'S DO SHOPPING</p>
+    <p style="margin-top: 50px; font-size: 30px; letter-spacing: 5px; font-weight: lighter">Make your life happier, enjoy your moment</p>
+</div>
+<div style="">
+    <div style="margin-top: 100px">
+        <div class="container bg-image1">
+            <div class="box">
+                <h2>NEW</h2>
+            </div>
+        </div>
+        <div class="stitle">
+            <h3 style="font-weight: lighter;">MAN</h3>
+        </div>
+        <div class="content">
+            <div class="slider">
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a href="Product_01.html"><img class="proImg" src="/images/anh_home/3.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(1)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_1.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(1)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(2)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_2.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(2)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(3)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_3.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(3)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(4)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_4.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(4)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(5)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_5.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(5)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(6)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_6.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(6)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(7)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_7.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(7)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(8)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_8.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(8)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(9)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_9.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(9)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stitle">
+            <h3 style="font-weight: lighter;">WOMAN</h3>
+        </div>
+        <div class="content c1">
+            <div class="slider">
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_10.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_11.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_12.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/1.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/2.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/3.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/4.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/5.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/6.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/7.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 100px">
+        <div class="container bg-image2">
+            <div class="box">
+                <h2>HOT</h2>
+            </div>
+        </div>
+        <div class="stitle">
+            <h3 style="font-weight: lighter;">MAN</h3>
+        </div>
+        <div class="content c2">
+            <div class="slider">
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/8.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/9.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/10.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/11.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/12.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/12.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_3/12.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stitle">
+            <h3 style="font-weight: lighter;">WOMAN</h3>
+        </div>
+        <div class="content c3">
+            <div class="slider">
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/anh_home/3.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 100px">
+        <div class="container bg-image3">
+            <div class="box">
+                <h2>SALE</h2>
+            </div>
+        </div>
+        <div class="stitle">
+            <h3 style="font-weight: lighter;">MAN</h3>
+        </div>
+        <div class="content c4">
+            <div class="slider">
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stitle">
+            <h3 style="font-weight: lighter;">WOMAN</h3>
+        </div>
+        <div class="content c5">
+            <div class="slider">
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/shop/Page_2/ao_1.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/h1-masonry-img-5-300x300.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product" style="margin-right: 25px">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/anh_home/1.png" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div style="position: absolute; margin-top: 10px; margin-left: 10px" onclick="addToWishlists(0)">
+                        <svg class="wishlist" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.2368 2.19522L10.2369 2.19513C10.6161 1.81576 11.0663 1.51481 11.5619 1.30948C12.0574 1.10416 12.5885 0.998474 13.1249 0.998474C13.6613 0.998474 14.1925 1.10416 14.688 1.30948C15.1835 1.51481 15.6338 1.81576 16.013 2.19513L16.0131 2.1953C16.3925 2.5745 16.6935 3.02472 16.8988 3.52026C17.1041 4.0158 17.2098 4.54694 17.2098 5.08333C17.2098 5.61972 17.1041 6.15086 16.8988 6.6464C16.6935 7.14193 16.3925 7.59216 16.0131 7.97136L16.0131 7.97144L15.1297 8.85478L8.99994 14.9846L2.87016 8.85478L1.98682 7.97144C1.22085 7.20547 0.790527 6.16658 0.790527 5.08333C0.790527 4.00008 1.22085 2.96119 1.98682 2.19522C2.7528 1.42924 3.79168 0.99892 4.87494 0.99892C5.95819 0.99892 6.99707 1.42924 7.76305 2.19522L8.64638 3.07855C8.84165 3.27381 9.15823 3.27381 9.35349 3.07855L10.2368 2.19522Z" stroke="#2C3547" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <a><img src="/images/anh_home/11.jpg" width="230" height="230"></a>
+                    <div class="proCon">
+                        <p class="proName">ILLUSION</p>
+                        <p  class="proPrice">100.00</p>
+                        <div class="cart">
+                            <button type="submit" onclick="addToCarts(0)">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   
+<div class="footer">
+    <div class="logo_header">
+        <a class="st_logo_web" href="Home.html">Fashion</a>
+        <div class="chu_footer">More than a fashion statement, more than a store Fashion</div>
+        <div class="footer_img"><img src="/images/header_footer%20DROP%20MENU/footer-img.png"></div>
+    </div>
+    <div class="shopping">
+        <div class="c_shopping">SHOPPING</div>
+        <div class="nd_shopping">
+            <a href="#">Gift Card</a>
+            <a href="Wishlist.html">Wishlist</a>
+            <a href="#">Checkout</a>
+            <a href="#">Delivery</a>
+        </div>
+    </div>
+    <div class="shopping">
+        <div class="c_shopping">COMPANY</div>
+        <div class="nd_company">
+            <a href="pagse.html">About Us</a>
+            <a href="#">Pricing Plans</a>
+            <a href="ContactUs.html">Contact Us</a>
+            <a href="#">FAQ</a>
+        </div>
+    </div>
+    <div class="nd_sub">
+        SUBSCRIBE FOR NEWSLETTER
+        <div class="input">
+            <input class="st_input_FOOTER" type="email" id="email" placeholder="Email address" required>                         
+            <a href="Home.html"><img class="plane" src="/images/header_footer%20DROP%20MENU/plane.png"></a>
+        </div>
+    </div>
+</div>
+<script src="/js/Home.js"></script>
+</body>
+</html>

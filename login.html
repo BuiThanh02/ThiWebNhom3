@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fashion</title>
+    <link rel="stylesheet" href="css/lstyle.css">
+</head>
+<body style="user-select: none;">
+    <div class="header">
+        <div class="logo_header">
+            <a class="st_logo_web_header" href="Home.html">Fashion</a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li>
+                    <a href="#">PAGSE</a>
+                    <div class="dropdown__menu_pagse">
+                        <ul>
+                            <li><a href="pagse.html">AboutUs</a></li>
+                            <li><a href="ContactUs.html">ContactUs</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="view.html">PORTFOLIO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </div>
+        <div class="incon">
+            <section class="s">
+                <a id="hienboder" href="login.html" class="user"><img src="/images/header_footer%20DROP%20MENU/user.png"></a>
+                <a href="#" class="search"><img src="/images/header_footer%20DROP%20MENU/search.png"></a>
+                <a href="Wishlist.html" class="search"><img src="/images/shop/Page_1/heart.png"></a>
+                <a href="Cart.html" class="shopping_bag"><img src="/images/header_footer%20DROP%20MENU/shopping-bag.png"></a>
+            </section>
+        </div>
+    </div>
+    <div class="link_home">
+        <div class="st_link_home">  
+            <a class="link_home1" href="/Home.html">Home</a> /Login
+        </div>
+    </div>
+
+    <div class="nd">
+        <div class="nd_login" id="login">
+            <div style="position:absolute;">
+                <h1>LOGIN</h1>
+                <div class="form_message form_message--error"></div>
+                <form method="post">
+                <div class="txt_field form__input--error">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="form__input-error-message"></div>
+                <div class="txt_field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="form__input-error-message"></div>
+                <div class="signup_link">
+                    <a href="#" id="linkResetPass">Forgot Password?</a>
+                </div>
+                <input type="submit" value="Login">
+                <div class="signup_link">
+                    Don't have an account? <a href="#" id="linkCreateAccount">Create account</a>
+                </div>
+                </form>
+                <img class="anh_login" src="/images/login c/anh_login.jpg">
+            </div>
+        </div>
+        <div class="st_register">
+            <div class="nd_account hidden" id="createAccount">
+                <div class="st_ndaccount">
+                    <h1>REGISTER</h1>
+                <form id="form" method="post">
+                    <div class="txt_field">
+                        <input type="text" id="name" required>
+                        <span></span>
+                        <label>Username</label>
+                    </div>
+                    <div class="txt_field">
+                        <input type="text" required>
+                        <span></span>
+                        <label>Email address</label>
+                    </div>
+                    <div class="txt_field">
+                        <input class="cl_pass" type="password" id="password" required>
+                        <span></span>
+                        <label>Password</label>
+                    </div>
+                    <div id="input_error"></div>
+                    <div class="txt_field">
+                        <input class="cl_cf_pass" type="password" id="cf_password" required>
+                        <span></span>
+                        <label>Confirm password</label>
+                    </div>
+                    <div id="message_cf_password"></div>
+                    <input class="button" type="submit" value="Register">
+                    <div class="signup_link">
+                        Already have an account? <a href="#" id="linkLogin">Sign in</a>
+                    </div>
+                </form>
+                </div>
+                <img class="anh_rigister" src="/images/login c/anh_regoster.jpg">
+            </div>
+        </div>
+        <div class="nd_reset hidden" id="resetPass">
+            <div><img class="anh_resetpass" src="/images/login c/anh_resetpass.jpg"></div>
+            <div>
+                <h1>RESET PASS</h1>
+            <form method="post">
+                <div class="resetpass">Lost your password? Please enter your username or email address. You will receive a link to create a new password via email.</div>
+                <div class="txt_field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username or email</label>
+                </div>
+                <input type="submit" value="Reset password">
+                <div class="signup_link">
+                    Go back to <a href="#" id="linkGoback">Login</a>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="logo_header">
+            <a class="st_logo_web" href="Home.html">Fashion</a>
+            <div class="chu_footer">More than a fashion statement, more than a store Fashion</div>
+            <div class="footer_img"><img src="/images/header_footer%20DROP%20MENU/footer-img.png"></div>
+        </div>
+        <div class="shopping">
+            <div class="c_shopping">SHOPPING</div>
+            <div class="nd_shopping">
+                <a href="#">Gift Card</a>
+                <a href="Wishlist.html">Wishlist</a>
+                <a href="#">Checkout</a>
+                <a href="#">Delivery</a>
+            </div>
+        </div>
+        <div class="shopping">
+            <div class="c_shopping">COMPANY</div>
+            <div class="nd_company">
+                <a href="pagse.html">About Us</a>
+                <a href="#">Pricing Plans</a>
+                <a href="ContactUs.html">Contact Us</a>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+        <div class="nd_sub">
+            SUBSCRIBE FOR NEWSLETTER
+            <div class="input">
+                <input class="st_input_FOOTER" type="email" id="email" placeholder="Email address" required>                         
+                <a href="Home.html"><img class="plane" src="/images/header_footer%20DROP%20MENU/plane.png"></a>
+            </div>
+        </div>
+    </div>
+    <script src="js/lmain.js"></script>
+</body>
+</html>
